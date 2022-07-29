@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*font-family: 'Passion One', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*font-family: 'Sriracha', cursive;*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: black;
+    height: 250px;
+}
+
+header > h1{
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-size: 7em;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+p > a{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p > a:hover{
+    text-decoration: underline;
+}
+
+section.conteudo > pre{
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    padding-top: 5%;
+    
+}
+
+img{
+    height: 500px;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.conteudo{
+    margin-left: -16%;
+}
+
+.especial > pre{
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.especial{
+    
+    height: 670px;
+    width: 100%;
+    background-image: url('../pacote-d012/imagens/background001.jpg');
+    background-color: black;
+    background-position: center center;
+    padding-top: 20px;
+}
+
+.destaque{
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 40%;
+    height: 96%;
+    padding: 5px;
+    margin-left: 14%;
+    padding-right: 20px;
+    
+}
+
+.destaque > pre{
+    margin-left: -51%;
+    font-family: 'Sriracha', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.especial2{
+    height: 670px;
+    width: 100%;
+    background-image: url('../pacote-d012/imagens/background002.jpg');
+    background-color: black;
+    padding-top: 20px;
+}

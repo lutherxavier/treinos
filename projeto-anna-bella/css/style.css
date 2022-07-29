@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background: #d2d2c1 url('../imagens/fundo.png');
+}
+
+#principal{ 
+    min-width: 550px;
+    max-width: 900px; 
+    margin: auto;
+}
+
+header {
+    height: 388px;
+    background-image: url('../imagens/capa.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+}
+
+#menu {
+    padding: 10px 3px;
+    background-color: rgba(128, 128, 128, 0.418);
+      
+}
+
+#menu > a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(78, 78, 78);
+    font-weight: bolder;
+    font-size: 1.7em;
+    
+}
+
+#menu > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white; 
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+main > p {
+    padding: 10px 0px;
+    font: 16px Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 15px solid rgba(128, 128, 128, 0.486);
+    
+}
+
+h2 {
+    font: bold 1.5em Arial, Helvetica, sans-serif;
+    color: gray;
+    
+}
+
+aside.contato {
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0px;
+}
