@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    background-color: rgb(255, 187, 0);
+    padding-top: 40px;
+    
+}
+
+header > h1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 3em;    
+}
+
+header > h1 > strong {
+    color: white;
+}
+
+nav {
+    background-color: rgb(255, 187, 0);
+    padding: 20px 0px 25px 0px;
+    text-align: center;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.144);
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+    font: bolder 1.1em Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover {
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: rgb(255, 187, 0);
+}
+
+nav > a:active {
+    color: #5300A8;
+}
+
+main#conteudo{
+    width: 920px;
+    margin: 0px auto;
+}
+
+article#principal{
+    float: left;
+    width: 660px;
+    margin: 0 auto;
+}
+
+article#principal > section{
+    background-color: white;
+    width: 660px;
+    margin: 15px auto;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.212);
+
+}
+
+section > img {
+    display: block;
+    margin: auto;
+}
+
+h2.tituloPostagem {
+    color: rgb(255, 187, 0);
+    padding: 10px 10px 0px 10px;
+}
+
+p.legenda {
+    padding: 0px 10px 20px 10px;
+    font-style: italic;
+}
+
+p{
+    padding: 15px;
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+section > a.extra {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(255, 187, 0);
+    font-weight: bold;
+    font-style: oblique;
+}
+
+section > a.extra:hover {
+    color: blue;
+}
+
+section > a.extra:active {
+    color: red;
+}
+
+article#lateral {
+    width: 240px;
+    float: right;
+    margin-top: 15px;
+}
+
+aside {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 3px 0px 25px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.212);
+}
+
+aside > h3 {
+    background-color: rgba(128, 128, 128, 0.418);
+    color: rgba(0, 0, 0, 0.747);
+    margin: 10px 15px 0px 15px;
+    padding: 4px;
+}
+
+aside > hr {
+    margin-top: 10px;
+}
+
+aside.postagens > p{
+    padding: 15px 15px 5px 15px;
+    line-height: 15px;
+    text-align: justify;
+    text-indent: 5px; 
+}
+
+aside.postagens > a {
+    text-decoration: none;
+    color: rgb(255, 187, 0);
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+aside.links > a {
+    display: block;
+    font: bolder 1.1em Arial, Helvetica, sans-serif;
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+aside.postagens > a:hover {
+    color: blue;
+}
+
+aside.postagens > a:active{
+    color: red;
+}
+
+aside.links > a:hover {
+    color: blue;
+}
+
+aside.links > a:active{
+    color: red;
+}
+
+footer {
+    clear: both;
+    background-color: rgba(128, 128, 128, 0.418);
+    font-weight: bold;
+    padding: 3px;
+    
+}
+
+footer > p {
+    text-align: center;
+    padding: 0px;
+}
